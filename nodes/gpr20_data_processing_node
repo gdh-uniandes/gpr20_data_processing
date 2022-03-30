@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+
+# Imports the data processing ROS interface
+from gpr20_data_processing.data_node import DataNode
+
+# Starts the node on request
+if __name__ == "__main__":
+    DataNode()
